@@ -1,0 +1,52 @@
+html, body  {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: Arial, verdana, sans-serif;
+  text-align: center;
+}
+h1 {
+  margin-left: -20px;
+}
+a {
+  display: inline-block;
+  margin: 5px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #009688;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: #1e90ff;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+div {
+  padding: 80px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .3);
+}
+
+
+
+
+
+
+
+
+
+
+
