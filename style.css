@@ -9,6 +9,7 @@ html, body  {
   font-size: 20px;
   font-family: Arial, verdana, sans-serif;
   text-align: center;
+  background: teal;
 }
 h1 {
   margin-left: -20px;
@@ -19,11 +20,17 @@ a {
   font-size: 30px;
   font-weight: bold;
   color: #009688;
+  background: white;
+  border: 1px solid #009688;
+  padding: 10px;
+  border-radius: 5px;
   text-decoration: none;
+  transition: all .3s;
 }
 a:hover {
-  text-decoration: underline;
-  color: #1e90ff;
+  transition: all .3s;
+  background: #009688;
+  color: white;
 }
 
 ul {
@@ -35,9 +42,15 @@ li {
   display: inline-block;
 }
 
-div {
+div.inner {
   padding: 80px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, .3);
+  border-radius: 1px;
+}
+div.outer {
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
 }
 
 
