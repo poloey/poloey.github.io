@@ -23,7 +23,7 @@ a {
   background: white;
   border: 1px solid #009688;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 2px;
   text-decoration: none;
   transition: all .3s;
 }
@@ -45,12 +45,12 @@ li {
 div.inner {
   padding: 80px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, .3);
-  border-radius: 1px;
+  border-radius: 2px;
 }
 div.outer {
   padding: 20px;
   background: white;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 
