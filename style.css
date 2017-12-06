@@ -17,12 +17,12 @@ h1 {
 a {
   display: inline-block;
   margin: 5px;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
   color: #009688;
   background: white;
   border: 1px solid #009688;
-  padding: 10px;
+  padding: 5px 8px;
   border-radius: 2px;
   text-decoration: none;
   transition: all .3s;
@@ -44,10 +44,15 @@ li {
 
 div.inner {
   padding: 80px;
+  display: inline-block;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, .3);
   border-radius: 2px;
+  @media screen and (max-width: 768px) {
+    padding: 40px;
+  }
 }
 div.outer {
+  display: inline-block;
   padding: 20px;
   background: white;
   border-radius: 5px;
